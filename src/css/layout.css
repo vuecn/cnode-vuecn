@@ -1,0 +1,15 @@
+@define-extend btn {
+	color: #FFF;
+	text-align: center;
+}
+
+@define-mixin header-layout {
+	width: 6.4rem;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	line-height: 0.7rem;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	background-color: #FFF;
+	transition: all 0.3s;
+}

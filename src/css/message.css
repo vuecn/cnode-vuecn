@@ -1,0 +1,44 @@
+@define-extend margin-background {
+	margin-bottom: 0.2rem;
+	background-color: #FFF;
+}
+
+.message-list-default, .message-list {
+	margin-top: 0.9rem;
+}
+
+.mg-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.2rem;
+	@extend margin-background;
+}
+
+.message-list li {
+	padding: 0.2rem 0;
+	@extend margin-background;
+}
+.avatar {
+	width: 0.8rem;
+	margin-right: 0.2rem;
+}
+
+.mg-item a {
+	flex: 1;
+	padding: 0.24rem 0;
+}
+.arrow {
+	width: 0.2rem;
+	height: 0.2rem;
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+	transform: rotate(45deg);
+}
+.item-quote {
+	padding-left: 0.2rem;
+	margin: 0 0.2rem;
+	line-height: 0.6rem;
+	border-left: 3px solid #DDD;
+	background-color: #F1F1F1;
+}

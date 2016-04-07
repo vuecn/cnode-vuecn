@@ -1,0 +1,39 @@
+@import "./layout.css";
+
+$color: #22C37B;
+
+@define-extend login {
+	display: block;
+	width: 100%;
+	line-height: 0.6rem;
+}
+
+.box {
+	padding: 0.2rem;
+	margin-top: 2rem;
+}
+
+.input-text {
+	margin-bottom: 0.22rem;
+	font-size: 0.24rem;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid $color;
+
+	@extend login;
+}
+
+.save-btn {
+	font-size: 0.26rem;
+	border-radius: 4px;
+	box-shadow: 0 6px #1B985F;
+	background-color: $color;
+
+	@extend btn;
+	@extend login;
+
+	&:active {
+		box-shadow: 0 3px #1B985F;
+		transform: translateY(3px);
+	}
+}

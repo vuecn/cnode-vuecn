@@ -1,0 +1,23 @@
+@import "./layout.css";
+
+$border: 1px solid #333;
+
+.header {
+	@mixin header-layout;
+}
+
+.back-btn-wrap {
+	display: flex;
+	width: 0.7rem;
+	height: 0.7rem;
+	position: absolute;
+}
+
+.back-btn {
+	width: 0.24rem;
+	height: 0.24rem;
+	margin: auto;
+	border-bottom: $border;
+	border-left: $border;
+	transform: rotate(45deg);
+}

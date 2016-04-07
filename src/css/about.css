@@ -1,0 +1,17 @@
+.about-list {
+	padding: 0 0.2rem;
+	margin-top: 0.7rem;
+	/* background-color: #F8F8F8; */
+}
+.about-list li {
+	padding: 0.23rem 0;
+	font-size: 0.22rem;
+	border-bottom: 1px solid #F1F2F3;
+}
+.about-list h5 {
+	margin-bottom: 0.2rem;
+	font-size: 0.28rem;
+}
+.about-list a {
+	color: #22C37B;
+}

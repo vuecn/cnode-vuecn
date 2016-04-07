@@ -1,0 +1,85 @@
+.profile-wrap {
+	padding-top: 0.7rem;
+	background-color: #F2F2F2;
+	padding-bottom: 4.3rem;
+}
+
+.profile {
+	margin-top: 0.2rem;
+	background-color: #FFF;
+}
+.profile-user {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.24rem;
+	border-bottom: 1px solid #EEE;
+}
+.profile-user img {
+	width: 0.9rem;
+	height: 0.9rem;
+	margin-right: 0.2rem;
+	border-radius: 100%;
+}
+.profile-user > div {
+	flex: 1;
+}
+.profile-username {
+	font-size: 0.25rem;
+}
+.profile-tail {
+	margin-top: 0.12rem;
+	color: #929292;
+}
+
+.profile-number {
+	display: flex;
+	justify-content: space-around;
+	padding: 0.15rem 0;
+	color: #929292;
+}
+.profile-number > div {
+	text-align: center;
+}
+.profile-number p {
+	color: #333;
+	font-size: 0.24rem;
+}
+
+.profile-list {
+	margin-top: 0.2rem;
+	font-size: 0.26rem;
+	background-color: #FFF;
+}
+.profile-list li {
+	padding-left: 0.3rem;
+	position: relative;
+	line-height: 0.7rem;
+}
+.profile-list li:nth-child(1) {
+	border-bottom: 1px solid #EEE;
+}
+.profile-list li::after {
+	content: "";
+	width: 0.16rem;
+	height: 0.16rem;
+	position: absolute;
+	top: 50%;
+	right: 0.24rem;
+	border-top: 1px solid #929292;
+	border-right: 1px solid #929292;
+	transform: rotate(45deg) translateY(-50%);
+}
+.profile-list a {
+	display: block;
+}
+
+
+.translate-transition, .translate-right-transition {
+	transition: all 10.3s;
+}
+.translate-enter, .translate-leave {
+	transform: translateX(-414px);
+}
+.translate-right-enter, .translate-right-leave {
+	transform: translateX(414px);
+}
